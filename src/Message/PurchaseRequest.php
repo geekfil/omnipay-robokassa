@@ -15,26 +15,26 @@ class PurchaseRequest extends AbstractRequest
     public function getData()
     {
         $this->validate(
-            'purse', 'amount', 'currency', 'description'
+            'purse', 'amount', 'currency', 'description', 'transactionId'
         );
 
         return [
-            'InvId' => '0',
-            'MrchLogin' => $this->getPurse(),
+            'InvId' => $this->getTransactionId(),
+            'MerchantLogin' => $this->getPurse(),
             'OutSum' => $this->getAmount(),
-            'Desc' => $this->getDescription(),
+            'InvDesc' => $this->getDescription(),
             'IncCurrLabel' => $this->getCurrency(),
             'SignatureValue' => $this->generateSignature(),
             'IsTest' => (int)$this->getTestMode(),
         ] + $this->getCustomFields();
-    }
+    } 
 
     public function generateSignature()
     {
         $params = [
             $this->getPurse(),
             $this->getAmount(),
-            '0',
+            $this->getTransactionId(),
             $this->getSecretKey()
         ];
 

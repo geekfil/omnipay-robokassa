@@ -1,4 +1,4 @@
-hiqdev/omnipay-robokassa commits history
+geekfil/omnipay-robokassa commits history
 ----------------------------------------
 
 ## Under development

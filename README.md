@@ -2,11 +2,11 @@
 
 **RoboKassa driver for Omnipay PHP payment library**
 
-[![Latest Stable Version](https://poser.pugx.org/hiqdev/omnipay-robokassa/v/stable)](https://packagist.org/packages/hiqdev/omnipay-robokassa)
-[![Total Downloads](https://poser.pugx.org/hiqdev/omnipay-robokassa/downloads)](https://packagist.org/packages/hiqdev/omnipay-robokassa)
-[![Build Status](https://img.shields.io/travis/hiqdev/omnipay-robokassa.svg)](https://travis-ci.org/hiqdev/omnipay-robokassa)
-[![Scrutinizer Code Coverage](https://img.shields.io/scrutinizer/coverage/g/hiqdev/omnipay-robokassa.svg)](https://scrutinizer-ci.com/g/hiqdev/omnipay-robokassa/)
-[![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/hiqdev/omnipay-robokassa.svg)](https://scrutinizer-ci.com/g/hiqdev/omnipay-robokassa/)
+[![Latest Stable Version](https://poser.pugx.org/geekfil/omnipay-robokassa/v/stable)](https://packagist.org/packages/geekfil/omnipay-robokassa)
+[![Total Downloads](https://poser.pugx.org/geekfil/omnipay-robokassa/downloads)](https://packagist.org/packages/geekfil/omnipay-robokassa)
+[![Build Status](https://img.shields.io/travis/geekfil/omnipay-robokassa.svg)](https://travis-ci.org/geekfil/omnipay-robokassa)
+[![Scrutinizer Code Coverage](https://img.shields.io/scrutinizer/coverage/g/geekfil/omnipay-robokassa.svg)](https://scrutinizer-ci.com/g/geekfil/omnipay-robokassa/)
+[![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/geekfil/omnipay-robokassa.svg)](https://scrutinizer-ci.com/g/geekfil/omnipay-robokassa/)
 [![Dependency Status](https://www.versioneye.com/php/hiqdev:omnipay-robokassa/dev-master/badge.svg)](https://www.versioneye.com/php/hiqdev:omnipay-robokassa/dev-master)
 
 [Omnipay] is a framework agnostic, multi-gateway payment
@@ -24,13 +24,13 @@ The preferred way to install this library is through [composer](http://getcompos
 Either run
 
 ```sh
-php composer.phar require "hiqdev/omnipay-robokassa"
+php composer.phar require "geekfil/omnipay-robokassa"
 ```
 
 or add
 
 ```json
-"hiqdev/omnipay-robokassa": "*"
+"geekfil/omnipay-robokassa": "*"
 ```
 
 to the require section of your composer.json.

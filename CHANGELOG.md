@@ -1,4 +1,4 @@
-hiqdev/omnipay-robokassa changelog
+geekfil/omnipay-robokassa changelog
 ----------------------------------
 
 ## Under development

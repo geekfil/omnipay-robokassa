@@ -2,7 +2,7 @@
 /**
  * RoboKassa driver for Omnipay PHP payment library.
  *
- * @link      https://github.com/hiqdev/omnipay-robokassa
+ * @link      https://github.com/geekfil/omnipay-robokassa
  * @package   omnipay-robokassa
  * @license   MIT
  * @copyright Copyright (c) 2015-2017, HiQDev (http://hiqdev.com/)
