@@ -51,7 +51,5 @@
         "psr-4": {
             "Omnipay\\RoboKassa\\": "src"
         }
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+    }
 }
